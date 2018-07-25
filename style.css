@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Concert One', cursive;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #434343;
+    height: 100px;
+}
+
+p#logo{
+    font-family: 'Concert One', cursive;
+    font-size: 25pt;
+    padding-top: 30px;
+    margin: 0;
+    color:white;
+    width: 175px
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    float: right;
+}
+
+ul.menu{
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li{
+    font-size: 15pt;
+    color: white;
+    display: inline;
+    margin-right: 25px;
+}
+
+@media (max-width: 650px){
+    nav{
+        right: 20px;
+    }
+    
+    ul.menu li{
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 480px){
+    
+    nav{
+        top: 15px;
+    }
+    
+    ul.menu li{
+        display: block;
+    }
+}
+
+.welkom{
+    background: url(welkome.jpg) no-repeat center/cover;
+    width: 100vw;
+    height: 700px;
+    text-align: center;
+}
+
+h1, h1#post{
+    font-size: 30pt;
+    margin: 0;
+    padding: 10px;
+    color: #969696;
+}
+
+h1{
+    color: #434343;
+    padding-top: 300px;
+}
+
+h2{
+    color: #434343;
+    font-family: 'Yantramanav', sans-serif;
+}
+p{
+    font-family: 'Yantramanav', sans-serif;
+    color: #545050;
+}
+
+p#blue{
+    padding-top: 50px;
+    color: #8293c6;
+}
+
+.post1{
+    width: 350px;
+    float: left;
+}
+
+.post2{
+    float: left;
+}
+
+p#black{
+    color: black;
+}
+
+hr{
+    clear: both;
+}
+
+.container-footer{
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #434343;
+    height: 150px;
+    text-align: center;
+}
+
+p#white{
+    color: white;
+}
+
+.column1{
+ float: left;
+ width: 250px;
+}
+
+.column2{
+    float: right;
+    width: 230px;
+}
+
+.social{
+    clear: both;
+}
+
+.vk{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 620px){
+    
+    footer{
+        height: 180px;
+    }
+    
+    .column1{
+        width: 220px;
+        float: none;
+        text-align: center;
+    }
+    
+    .column2{
+        float: none;
+        text-align: center;
+    }
+    
+    .container-footer{
+        width: 50%;
+    }
+}
